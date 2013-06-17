@@ -1,0 +1,17 @@
+{
+  "name": "evproxy",
+  "description": "Proxy events between `EventEmitter`s",
+  "version": "0.0.0",
+  "author": "Maciej Małecki <me@mmalecki.com>",
+  "main": "./lib/evproxy.js",
+  "devDependencies": {
+    "assert-called": "0.1.x"
+  },
+  "scripts": {
+    "test": "node test/evproxy-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmalecki/evproxy.git"
+  }
+}
